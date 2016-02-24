@@ -6,9 +6,6 @@ python:
 addons:
   postgresql: "9.3"
   
-services:
-  - cassandra
-  
 install:
   - pip install -r requirements.txt
 
